@@ -7,99 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01E47DCDE3A1F5DE18BB5DF3E29F7222 /* CLTypingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF567E6539A5D16DAB569F274C89C97 /* CLTypingLabel-dummy.m */; };
-		0B7BE9DCB0E9F8DBC418DC3ECFC40320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		80868D8A3BDB165CEF01E0F9F6CED9AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8BA60E87901FB3BB236E6C687EE0B3B0 /* Pods-Flash-Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF160AC23BC76B3A0DDEA5DF8176F8A /* Pods-Flash-Chat-dummy.m */; };
-		AA3F509151AC6B972D3ADCD92EF23B68 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8030002BBB82126CDF2189B1BE43E8F2 /* CLTypingLabel.swift */; };
-		AB38E495C05413C1498B5104C08B6DD3 /* Pods-Flash-Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61709B88AAAE77D2B5F8B2F1349E7DEF /* Pods-Flash-Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6196C748C1B92D9355711CEF1BBA8B7 /* CLTypingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A69D385C15570CA185260AD937911A4C /* CLTypingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155597807C6F44F0DA0D43CD891F7A09 /* Pods-Flash-Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 647340523A19C32791AEFC5C4A5F9A9D /* Pods-Flash-Chat-dummy.m */; };
+		4E68135F416F589FED34F4C64D94191B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		91EF47678850F53E2D75CE267C6ABE09 /* Pods-Flash-Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E935BEA3B4169E8D3FD98B0F9C571F /* Pods-Flash-Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EB9A5C2F04262EABD98D029DAC88A379 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F8A929BDB6E633BE35459804508532F;
-			remoteInfo = CLTypingLabel;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02924E7F08C0A4751D3C15D010523969 /* Pods_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flash_Chat.framework; path = "Pods-Flash-Chat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BF160AC23BC76B3A0DDEA5DF8176F8A /* Pods-Flash-Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flash-Chat-dummy.m"; sourceTree = "<group>"; };
-		2410FE8BE282BE530D4B08BE28B5112B /* Pods-Flash-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flash-Chat.release.xcconfig"; sourceTree = "<group>"; };
+		2F63D8CB4A23AB4A3ADB4D668D43580E /* Pods-Flash-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flash-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF0D827A729E17405DD1FF9331A3AA6 /* Pods-Flash-Chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flash-Chat-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		492B279D664CE36EF09EFA2FBEFD5CD6 /* CLTypingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLTypingLabel-Info.plist"; sourceTree = "<group>"; };
-		61709B88AAAE77D2B5F8B2F1349E7DEF /* Pods-Flash-Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flash-Chat-umbrella.h"; sourceTree = "<group>"; };
-		66FD79BA122A123B4F33585686541B8D /* CLTypingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLTypingLabel.modulemap; sourceTree = "<group>"; };
-		6B77EDD9B3B6F85364AE95C5BD41242F /* Pods-Flash-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flash-Chat.debug.xcconfig"; sourceTree = "<group>"; };
-		8030002BBB82126CDF2189B1BE43E8F2 /* CLTypingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTypingLabel.swift; path = Pod/Classes/CLTypingLabel.swift; sourceTree = "<group>"; };
-		9468BA24DCB5E08A24F65C3B045162BA /* CLTypingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.xcconfig; sourceTree = "<group>"; };
-		9A79A0D1B4CA0DC30EBE8B77A6124176 /* Pods-Flash-Chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flash-Chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36E935BEA3B4169E8D3FD98B0F9C571F /* Pods-Flash-Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flash-Chat-umbrella.h"; sourceTree = "<group>"; };
+		3D3BE0729879CDB72DE6584AF2E66704 /* Pods-Flash-Chat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flash-Chat-Info.plist"; sourceTree = "<group>"; };
+		647340523A19C32791AEFC5C4A5F9A9D /* Pods-Flash-Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flash-Chat-dummy.m"; sourceTree = "<group>"; };
+		91A0B6D62BF4DCD726811B0EED74440E /* Pods-Flash-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flash-Chat.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A69D385C15570CA185260AD937911A4C /* CLTypingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-umbrella.h"; sourceTree = "<group>"; };
-		ACD45A8D666504EE5187CFFC655C482F /* Pods-Flash-Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flash-Chat.modulemap"; sourceTree = "<group>"; };
-		B1C50CD6944ABFDDE080495FF92C4F43 /* Pods-Flash-Chat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flash-Chat-frameworks.sh"; sourceTree = "<group>"; };
-		CD1074D0840452120E5FACA81AD91EF2 /* Pods-Flash-Chat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flash-Chat-Info.plist"; sourceTree = "<group>"; };
-		CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLTypingLabel.framework; path = CLTypingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2A3DACEECB5B3830F2253E364AE6011 /* Pods-Flash-Chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flash-Chat-acknowledgements.plist"; sourceTree = "<group>"; };
-		D60FAA85B80F876FA108836DC1ED8DB8 /* CLTypingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-prefix.pch"; sourceTree = "<group>"; };
-		EAF567E6539A5D16DAB569F274C89C97 /* CLTypingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLTypingLabel-dummy.m"; sourceTree = "<group>"; };
+		A30234BCE53B333BB99C70F022BC8D75 /* Pods-Flash-Chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flash-Chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E953080D9E021ACCECB4821DBC9FD3CA /* Pods-Flash-Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flash-Chat.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52074A294C4CC2E2BF7D97D89B8DA0E9 /* Frameworks */ = {
+		06BC6D846950B896EBB2A3D37CA3DBC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80868D8A3BDB165CEF01E0F9F6CED9AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B40C186D2C2E1469C5598FEDBAC5DFD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B7BE9DCB0E9F8DBC418DC3ECFC40320 /* Foundation.framework in Frameworks */,
+				4E68135F416F589FED34F4C64D94191B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AC9A7312A644B13C38509552C942E31 /* Products */ = {
+		A3B0DFCC2412D3269A44EFC151ADF245 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */,
-				02924E7F08C0A4751D3C15D010523969 /* Pods_Flash_Chat.framework */,
+				CDBBC65AFEE1160746505514310F8C75 /* Pods-Flash-Chat */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3A848511B55AA3662286C314B25C5202 /* CLTypingLabel */ = {
-			isa = PBXGroup;
-			children = (
-				8030002BBB82126CDF2189B1BE43E8F2 /* CLTypingLabel.swift */,
-				A319DDA6731FF9AB0D84AABF3B60D382 /* Support Files */,
-			);
-			name = CLTypingLabel;
-			path = CLTypingLabel;
-			sourceTree = "<group>";
-		};
-		A319DDA6731FF9AB0D84AABF3B60D382 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66FD79BA122A123B4F33585686541B8D /* CLTypingLabel.modulemap */,
-				9468BA24DCB5E08A24F65C3B045162BA /* CLTypingLabel.xcconfig */,
-				EAF567E6539A5D16DAB569F274C89C97 /* CLTypingLabel-dummy.m */,
-				492B279D664CE36EF09EFA2FBEFD5CD6 /* CLTypingLabel-Info.plist */,
-				D60FAA85B80F876FA108836DC1ED8DB8 /* CLTypingLabel-prefix.pch */,
-				A69D385C15570CA185260AD937911A4C /* CLTypingLabel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CLTypingLabel";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -110,32 +54,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CDBBC65AFEE1160746505514310F8C75 /* Pods-Flash-Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E953080D9E021ACCECB4821DBC9FD3CA /* Pods-Flash-Chat.modulemap */,
+				A30234BCE53B333BB99C70F022BC8D75 /* Pods-Flash-Chat-acknowledgements.markdown */,
+				2FF0D827A729E17405DD1FF9331A3AA6 /* Pods-Flash-Chat-acknowledgements.plist */,
+				647340523A19C32791AEFC5C4A5F9A9D /* Pods-Flash-Chat-dummy.m */,
+				3D3BE0729879CDB72DE6584AF2E66704 /* Pods-Flash-Chat-Info.plist */,
+				36E935BEA3B4169E8D3FD98B0F9C571F /* Pods-Flash-Chat-umbrella.h */,
+				2F63D8CB4A23AB4A3ADB4D668D43580E /* Pods-Flash-Chat.debug.xcconfig */,
+				91A0B6D62BF4DCD726811B0EED74440E /* Pods-Flash-Chat.release.xcconfig */,
+			);
+			name = "Pods-Flash-Chat";
+			path = "Target Support Files/Pods-Flash-Chat";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E5728BA1B8CEEB3143CA35A236294C2C /* Pods */,
-				1AC9A7312A644B13C38509552C942E31 /* Products */,
-				D51E2FF3CAF598A5379FA0415746A981 /* Targets Support Files */,
+				E394D2F2464630A2A5C3A99CEE0FA4ED /* Products */,
+				A3B0DFCC2412D3269A44EFC151ADF245 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFA23C058B2D349B3C57DA0662661B01 /* Pods-Flash-Chat */ = {
-			isa = PBXGroup;
-			children = (
-				ACD45A8D666504EE5187CFFC655C482F /* Pods-Flash-Chat.modulemap */,
-				9A79A0D1B4CA0DC30EBE8B77A6124176 /* Pods-Flash-Chat-acknowledgements.markdown */,
-				D2A3DACEECB5B3830F2253E364AE6011 /* Pods-Flash-Chat-acknowledgements.plist */,
-				0BF160AC23BC76B3A0DDEA5DF8176F8A /* Pods-Flash-Chat-dummy.m */,
-				B1C50CD6944ABFDDE080495FF92C4F43 /* Pods-Flash-Chat-frameworks.sh */,
-				CD1074D0840452120E5FACA81AD91EF2 /* Pods-Flash-Chat-Info.plist */,
-				61709B88AAAE77D2B5F8B2F1349E7DEF /* Pods-Flash-Chat-umbrella.h */,
-				6B77EDD9B3B6F85364AE95C5BD41242F /* Pods-Flash-Chat.debug.xcconfig */,
-				2410FE8BE282BE530D4B08BE28B5112B /* Pods-Flash-Chat.release.xcconfig */,
-			);
-			name = "Pods-Flash-Chat";
-			path = "Target Support Files/Pods-Flash-Chat";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -146,75 +88,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D51E2FF3CAF598A5379FA0415746A981 /* Targets Support Files */ = {
+		E394D2F2464630A2A5C3A99CEE0FA4ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFA23C058B2D349B3C57DA0662661B01 /* Pods-Flash-Chat */,
+				02924E7F08C0A4751D3C15D010523969 /* Pods_Flash_Chat.framework */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E5728BA1B8CEEB3143CA35A236294C2C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3A848511B55AA3662286C314B25C5202 /* CLTypingLabel */,
-			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		65B133F95F291D06ACEE7B135EB52F18 /* Headers */ = {
+		4D0F93E90374E73D93A414D15EA24E21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB38E495C05413C1498B5104C08B6DD3 /* Pods-Flash-Chat-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3D5CD51D9B4679ED477ADE8C7052FAC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6196C748C1B92D9355711CEF1BBA8B7 /* CLTypingLabel-umbrella.h in Headers */,
+				91EF47678850F53E2D75CE267C6ABE09 /* Pods-Flash-Chat-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9137D08EEEFEBE251777C6EB11F7579 /* Build configuration list for PBXNativeTarget "CLTypingLabel" */;
-			buildPhases = (
-				F3D5CD51D9B4679ED477ADE8C7052FAC /* Headers */,
-				8866665DAFABA4C8EA45E067D4C225AF /* Sources */,
-				B40C186D2C2E1469C5598FEDBAC5DFD1 /* Frameworks */,
-				7B9790660C322361548160ACB2E3EF77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CLTypingLabel;
-			productName = CLTypingLabel;
-			productReference = CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		FCCD0387C3AE55C52DF94AA3742BBBED /* Pods-Flash-Chat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4C89FF1B946D53BCCA3721F07BC1B3D /* Build configuration list for PBXNativeTarget "Pods-Flash-Chat" */;
+			buildConfigurationList = BFA63EDA1DE7C3C57C2B6FC74D29ADB2 /* Build configuration list for PBXNativeTarget "Pods-Flash-Chat" */;
 			buildPhases = (
-				65B133F95F291D06ACEE7B135EB52F18 /* Headers */,
-				74248C761C2EF9B1B27CFB7BFE0A4C60 /* Sources */,
-				52074A294C4CC2E2BF7D97D89B8DA0E9 /* Frameworks */,
-				700343DA497472EC44530FC0FCD38F41 /* Resources */,
+				4D0F93E90374E73D93A414D15EA24E21 /* Headers */,
+				056512B4D383033CECB8FB0643772893 /* Sources */,
+				06BC6D846950B896EBB2A3D37CA3DBC4 /* Frameworks */,
+				DD336ADDB83577A4E50CD775D042F61F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				92355B3B9D0936897C297FDBAA315E15 /* PBXTargetDependency */,
 			);
 			name = "Pods-Flash-Chat";
 			productName = "Pods-Flash-Chat";
@@ -239,25 +146,17 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1AC9A7312A644B13C38509552C942E31 /* Products */;
+			productRefGroup = E394D2F2464630A2A5C3A99CEE0FA4ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */,
 				FCCD0387C3AE55C52DF94AA3742BBBED /* Pods-Flash-Chat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		700343DA497472EC44530FC0FCD38F41 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B9790660C322361548160ACB2E3EF77 /* Resources */ = {
+		DD336ADDB83577A4E50CD775D042F61F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,33 +166,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		74248C761C2EF9B1B27CFB7BFE0A4C60 /* Sources */ = {
+		056512B4D383033CECB8FB0643772893 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BA60E87901FB3BB236E6C687EE0B3B0 /* Pods-Flash-Chat-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8866665DAFABA4C8EA45E067D4C225AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01E47DCDE3A1F5DE18BB5DF3E29F7222 /* CLTypingLabel-dummy.m in Sources */,
-				AA3F509151AC6B972D3ADCD92EF23B68 /* CLTypingLabel.swift in Sources */,
+				155597807C6F44F0DA0D43CD891F7A09 /* Pods-Flash-Chat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92355B3B9D0936897C297FDBAA315E15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CLTypingLabel;
-			target = 6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */;
-			targetProxy = EB9A5C2F04262EABD98D029DAC88A379 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
@@ -356,9 +237,9 @@
 			};
 			name = Release;
 		};
-		2A0EDFFA28BC6F7659BE05E9920B206E /* Debug */ = {
+		1BFA7DCDD23D02CD23A12595CDC679BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B77EDD9B3B6F85364AE95C5BD41242F /* Pods-Flash-Chat.debug.xcconfig */;
+			baseConfigurationReference = 2F63D8CB4A23AB4A3ADB4D668D43580E /* Pods-Flash-Chat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -394,9 +275,9 @@
 			};
 			name = Debug;
 		};
-		74E86401721B6BCC55C10E617902D341 /* Release */ = {
+		671D039B85367519B9DFA1501F47C78F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2410FE8BE282BE530D4B08BE28B5112B /* Pods-Flash-Chat.release.xcconfig */;
+			baseConfigurationReference = 91A0B6D62BF4DCD726811B0EED74440E /* Pods-Flash-Chat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -432,79 +313,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		89E6CAE0BB84E988C934FCA8BC028A1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468BA24DCB5E08A24F65C3B045162BA /* CLTypingLabel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D8AEDD5C6EDF00C22DC3BAE131EC37ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468BA24DCB5E08A24F65C3B045162BA /* CLTypingLabel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -582,20 +390,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4C89FF1B946D53BCCA3721F07BC1B3D /* Build configuration list for PBXNativeTarget "Pods-Flash-Chat" */ = {
+		BFA63EDA1DE7C3C57C2B6FC74D29ADB2 /* Build configuration list for PBXNativeTarget "Pods-Flash-Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A0EDFFA28BC6F7659BE05E9920B206E /* Debug */,
-				74E86401721B6BCC55C10E617902D341 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9137D08EEEFEBE251777C6EB11F7579 /* Build configuration list for PBXNativeTarget "CLTypingLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8AEDD5C6EDF00C22DC3BAE131EC37ED /* Debug */,
-				89E6CAE0BB84E988C934FCA8BC028A1A /* Release */,
+				1BFA7DCDD23D02CD23A12595CDC679BF /* Debug */,
+				671D039B85367519B9DFA1501F47C78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
